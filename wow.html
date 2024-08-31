@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <meta name="description" content="Within this Shrine you will find Zeth's portfolio and all of its projects">
+    <meta name="keywords" content="FCC, freecodecamp, personal portfolio webpage, Zeth, zethwashere, machine shrine, zeth's portfolio">
+    <meta name="author" content="NeKo, NeKowehere">
+    <title>Neko's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <!-- Theme Selector -->
+    <div id="theme-switcher">
+      <label for="theme-select">Choose Theme: </label>
+      <select id="theme-select">
+        <option value="light">Light Mode</option>
+        <option value="dark">Dark Mode</option>
+        <option value="custom">Custom Scheme</option>
+      </select>
+    </div>
+
+    <!-- Navigation Bar -->
+    <section id="nav-wrapper">
+      <nav>
+        <a href="#welcome">Home</a>
+        <a href="#projects-section">Games</a>
+        
+        <a href="#contact-section">Contact</a>
+      </nav>
+    </section>
     
-</body>
+    <!-- Content Sections -->
+    <main>
+      <!-- Welcome Section -->
+      <section id="welcome" class="reveal">
+        <div id="introduction-container">
+          <header>
+            <h1>Call Me NeKo</h1>
+          </header>
+          <p>A Gamer and a Student in Holy Cross of Davao College</p>
+          <img id="pic" src="https://i.pinimg.com/564x/27/b8/e6/27b8e6b0fb915cb5a138a8fcb8d55870.jpg" alt="a cute picture of Gojo">
+          <div id="paragraph">
+            <p>
+             
+              
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Projects Section -->
+      <section id="projects-section" class="reveal">
+        <header>
+          <h2>GAMES</h2>
+        </header>
+        <div id="gallery">
+          <!-- Project Links -->
+          <a href="https://www.callofduty.com/mobile" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_4nZJUJL649w-aRGhcQnx6lGKrl73gQ49nw&s" alt="A thumbnail image of Call of Duty Mobile">
+            <p>Call of Duty Mobile</p>
+          </a>
+          <a href="https://codepen.io/zethwashere/full/pqPGYr" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsKMhd5bk8KhsgBiKz0qmkMzEw7Lz3F3fnQ&s" alt="A thumbnail image of APEX">
+            <p>APEX</p>
+          </a>
+          <a href="https://www.dota2.com/" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB7nqAnxnbvt56kPApKAPmAKyiAdBtzzOxgg&s" alt="A thumbnail image of DOTA 2">
+            <p>DOTA 2</p>
+          </a>
+          <a href="https://codepen.io/zethwashere/full/bOZXLG" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2FWfM2oXRC4snWAGq63V_ZTTNxcp_AW1c0g&s" alt="A thumbnail image of CS 2">
+            <p>CS 2</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact-section" class="reveal">
+        <header>
+          <h4>Contacts</h4>
+        </header>
+        <p>Let's learn from each other:</p>
+        <div id="media">
+          <!-- Social Media Links -->
+          <span id="codepen">
+            <a target="_blank" href="https://codepen.io/Neo-Kolbe-Abracia">
+              <i class="fab fa-codepen"></i>
+              <p>Codepen</p>
+            </a>
+          </span>
+          <span id="github">
+            <a target="_blank" href="https://github.com/NeKoDGreat">
+              <i class="fab fa-github"></i>
+              <p>Github</p>
+            </a>
+          </span>
+          <span id="pinterest">
+            <a target="_blank" href="https://ph.pinterest.com/neokolbe/">
+              <i class="fab fa-pinterest"></i>
+              <p>Pinterest</p>
+            </a>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      Made by NEO<br>
+      &#169; by OnexDGreat
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+  </body>
 </html>
